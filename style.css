@@ -1,0 +1,57 @@
+/* ASHEN JOKER - MUTED WALLPAPER PALETTE */
+
+* {
+    font-family: "JetBrainsMono Nerd Font", monospace;
+    font-size: 12px;
+    font-weight: 500;
+    border: none;
+    min-height: 0;
+}
+
+window#waybar { background: rgba(23, 23, 25, 0.72); color: #D8D7D4; border: 1px solid rgba(72, 72, 77, 0.45); border-radius: 12px; }
+
+/* WORKSPACES */
+
+#workspaces { background: transparent; padding: 4px 6px; margin: 4px; }
+
+#workspaces button { color: #858589; background: rgba(41, 41, 45, 0.55); border-radius: 8px; padding: 0 11px; margin: 0 3px; transition: all 150ms ease; }
+
+#workspaces button.empty { color: #626267; background: transparent; }
+
+#workspaces button.active { color: #F0EFEC; background: #48484D; border: 1px solid #626267; }
+
+#workspaces button.visible { color: #D8D7D4; }
+
+#workspaces button.urgent { color: #F0EFEC; background: #805D55; }
+
+#workspaces button:hover { color: #F0EFEC; background: #38383D; }
+
+/* CLOCK */
+
+#clock { color: #D8D7D4; background: rgba(41, 41, 45, 0.65); padding: 0 18px; margin: 5px; border-radius: 9px; font-size: 13px; font-weight: 600; }
+
+/* RIGHT MODULES */
+
+#pulseaudio, #network, #battery { color: #B5B5B8; background: rgba(41, 41, 45, 0.65); padding: 0 12px; margin: 5px 3px; border-radius: 9px; }
+
+#pulseaudio:hover, #network:hover, #battery:hover { color: #F0EFEC; background: #38383D; }
+
+#pulseaudio.muted { color: #626267; }
+
+#network.disconnected { color: #858589; }
+
+#battery.warning { color: #B5B5B8; background: #38383D; }
+
+#battery.critical { color: #F0EFEC; background: #805D55; }
+
+/* POWER */
+
+#custom-power { color: #B5B5B8; background: rgba(41, 41, 45, 0.65); padding: 0 14px; margin: 5px 5px 5px 3px; border-radius: 9px; font-size: 16px; }
+
+#custom-power:hover { color: #F0EFEC; background: #805D55; }
+
+/* TOOLTIP */
+
+tooltip { background: rgba(23, 23, 25, 0.96); color: #D8D7D4; border: 1px solid #48484D; border-radius: 9px; padding: 8px; }
+
+tooltip label { color: #D8D7D4; }
